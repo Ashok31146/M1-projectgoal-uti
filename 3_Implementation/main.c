@@ -1,3 +1,13 @@
+/**
+ * @file main.c
+ * @author Ashok
+ * @brief 
+ * @version 0.1
+ * @date 2022-02-25
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
 #include<stdio.h>
 #include<string.h>
 #include<conio.h>
@@ -20,9 +30,7 @@ int main()
 
     system("cls");
 
-	printf("\n\n\n\n\n\n\n\n\n**************************************************************");
 	printf("\n\t\t------WELCOME TO THE DTH BILLING MANAGEMENT SYSTEM---");
-	printf("\n\t\t****************************************************************");
 	Sleep(2000);
 	getch();
     system("cls");
