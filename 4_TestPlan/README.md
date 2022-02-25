@@ -14,4 +14,4 @@
 ## Low Level Test Plan
 |Test ID |Description |Expected I/P |Expected O/P |Actual Output |
 |---|---|---|---|---|
-|LTP_01 |For Records |User Input "Name" |Save in .file.ojs |Pass |
+|LTP_01 |For Records |User Details "Name" |Save in .file.ojs |Pass |
