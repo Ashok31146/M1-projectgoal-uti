@@ -27,28 +27,28 @@ int main()
 
 void test_deleterecords(void)
 {
-    char smartcardnumber[20]="KHY123456";
-    TEST_ASSERT_EQUAL("KHY123456", smartcardnumber);
+    char smartcardnumber[20]="SKY123456";
+    TEST_ASSERT_EQUAL("SKY123456", smartcardnumber);
    
 }
 
 void test_searchrecords(void)
 {
-    char smartcardnumber[20]="KHY123456";
-    TEST_ASSERT_EQUAL("KHY123456", smartcardnumber);
+    char smartcardnumber[20]="SKY123456";
+    TEST_ASSERT_EQUAL("SKY123456", smartcardnumber);
    
 }
 
 void test_addrecords(void)
 {
-    char smartcardnumber[20]="KHY123456";
+    char smartcardnumber[20]="SKY123456";
 
-    char name[20]="SOOGURESH";
+    char name[20]="ASHOK";
 
     char amount [20]="1000";
 
- TEST_ASSERT_EQUAL("KHY123456",smartcardnumber);
- TEST_ASSERT_EQUAL("SOOGURESH", name);
+ TEST_ASSERT_EQUAL("SKY123456",smartcardnumber);
+ TEST_ASSERT_EQUAL("ASHOK", name);
  TEST_ASSERT_EQUAL("1000", amount);
    
 }
