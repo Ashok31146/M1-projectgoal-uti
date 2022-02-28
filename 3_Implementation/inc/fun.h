@@ -16,4 +16,10 @@ void searchrecords();
 void listrecords();
 void payment();
 void modifyrecords();
-#endif
+#endif 
+struct subscriber
+{
+char smartcardnumber[20];
+char name[50];
+float amount;
+}s;

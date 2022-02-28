@@ -13,7 +13,6 @@
 #include<conio.h>
 #include<windows.h>
 #include<stdlib.h>
-#include"struct.h"
 #include"fun.h"
 void addrecords();
 void deleterecords();
