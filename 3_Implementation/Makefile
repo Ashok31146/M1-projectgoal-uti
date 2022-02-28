@@ -11,7 +11,10 @@
 # 	del DTH.exe
 PROJ_NAME = DTH
 SRC = main.c\
-src/operations.c
+src/operations.c 
+
+TEST_SRC =test/test.c\
+unity/unity.c
  
 
 ifdef OS
@@ -31,6 +34,26 @@ build:
 
 run: build
 	./$(call FixPath,$(PROJ_NAME).$(EXEC))
+
+static_analysis:
+	cppcheck --enable=all $(SRC)
+
+test: $(SRC) $(TEST_SRC)
+	gcc $^ $(INC) -o $(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
+	./$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC)
+
+
+
+coverage:${PROJECT_NAME}
+	gcc -fprofile-arcs -ftest-coverage $(SRC) $(INC) -o $(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
+	$(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
+	gcov -a $(SRC)
+
+
+
+doc:
+	make -C doc
+
 
 clean:
 	$(RM) $(call FixPath,$(PROJ_NAME).$(EXEC))
