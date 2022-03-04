@@ -1,6 +1,12 @@
+# M1-projectgoal-uti
+# DTH Billing System
+---
+# Badges
+
 |Static Check |Git Inspector |Cpp Check |Unit Test |Build |
 |--- |--- |--- |--- |--- |
 |[![Cppcheck](https://github.com/Ashok31146/M1-projectgoal-uti/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Ashok31146/M1-projectgoal-uti/actions/workflows/c-cpp.yml) |[![Git Inspector](https://github.com/Ashok31146/M1-projectgoal-uti/actions/workflows/github%20insecptor.yml/badge.svg)](https://github.com/Ashok31146/M1-projectgoal-uti/actions/workflows/github%20insecptor.yml) |[![cppcheck-action](https://github.com/Ashok31146/M1-projectgoal-uti/actions/workflows/Cpp%20Check.yml/badge.svg)](https://github.com/Ashok31146/M1-projectgoal-uti/actions/workflows/Cpp%20Check.yml) |[![Unit Testing - Unity](https://github.com/Ashok31146/M1-projectgoal-uti/actions/workflows/Unit%20Test.yml/badge.svg)](https://github.com/Ashok31146/M1-projectgoal-uti/actions/workflows/Unit%20Test.yml) |[![C/C++ CI](https://github.com/Ashok31146/M1-projectgoal-uti/actions/workflows/Build.yml/badge.svg)](https://github.com/Ashok31146/M1-projectgoal-uti/actions/workflows/Build.yml) |
+---
 # Quality Analysis And Badges
 |Codiga Code Quality Score |Codiga Code Grade |Codacy Code Quality |
 |--- |--- |--- |
